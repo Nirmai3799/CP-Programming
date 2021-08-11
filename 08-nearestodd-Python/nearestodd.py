@@ -6,6 +6,16 @@
 
 
 def fun_nearestodd(n):
-	return 0
+	if(int(n)%2==1):
+		return int(n)
+	else:
+		a=int(n+1)
+		b=int(n-1)
+		if(abs(n-a)>=abs(n-b)):
+			return b
+		else:
+			return a
+# print(fun_nearestodd(float(input())))
+
 
 
