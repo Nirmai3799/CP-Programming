@@ -1,0 +1,25 @@
+{
+    "ismultiple.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 11 2021 15:07:45",
+            "keyStrokeInfo": "\r\n\t",
+            "position": "8,26"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 8,
+            "keyStrokeTimeStamp": "Wed Aug 11 2021 15:07:45",
+            "keyStrokeInfo": "if(m==0):\r\n\t\treturn True\r\n\telif(n==0):\r\n\t\treturn False\r\n\telif(m%n==0):\r\n\t\treturn True\r\n\telse:\r\n\t\treturn False",
+            "position": "9,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 11 2021 15:07:50",
+            "keyStrokeInfo": "",
+            "position": "17,2"
+        }
+    ]
+}
