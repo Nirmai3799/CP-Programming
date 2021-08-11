@@ -7,5 +7,19 @@
 
 
 def fun_set_kth_digit(n, k, d):
-		return 0
-
+	a=abs(n)
+	count=0
+	res=0
+	while(count<=k or a>0):
+		r=a%10
+		if(count==k):
+			res=res+d*(10**count)
+		else:
+			res=res+r*(10**count)
+		count+=1
+		a=a//10
+	if(n<0):
+		return -res
+	else:
+		return res
+print(fun_set_kth_digit(468, 0, 1))
