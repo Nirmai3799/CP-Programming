@@ -4,4 +4,8 @@
 
 def hasconsecutivedigits(n):
 	# your code goes here
-	pass
+	n=str(n)
+	for i in range(len(n)-1):
+		if(n[i]==n[i+1]):
+			return True
+	return False
