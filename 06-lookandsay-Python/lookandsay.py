@@ -11,4 +11,17 @@
 
 def lookandsay(a):
 	# Your code goes here
-	pass
+	l=[]
+	if(a==[]):
+		return a
+	else:
+		count=1
+		for i in range(1,len(a)):
+			if(a[i-1]==a[i]):
+				count+=1
+			else:
+				l.append((count,a[i-1]))
+				count=1
+		l.append((count,a[i]))
+		return l
+# print(lookandsay([3,3,8,-10,-10,-10]))
