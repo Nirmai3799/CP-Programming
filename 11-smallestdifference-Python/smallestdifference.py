@@ -6,4 +6,14 @@
 
 def smallestdifference(a):
 	# Your code goes here
-	pass
+	if(a==[]):
+		return -1
+	diff=10000000
+	for i in range(len(a)):
+		
+		for j in range(i+1,len(a)):
+			if(abs(a[j]-a[i])<diff):
+				diff=abs(a[j]-a[i])
+	return diff
+# print(smallestdifference([1, -3, 71, 68, 17]))
+
