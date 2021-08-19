@@ -10,3 +10,27 @@
 # assert (isPalindromicPrime(373) == True)
 # assert (isPalindromicPrime(121) == False)
 # print("All test cases passed... :-)")
+def isPalindromicPrime(a):
+    if (isPalindrome(a) and isPrime(a)):
+        return True
+    else:
+        return False
+ 
+def isPalindrome(n):
+    n=str(n)
+    return n[::-1]==n
+ 
+def isPrime(n):
+    if n < 2:
+        return False
+    elif n == 2:
+        return True
+    elif n % 2 == 0:
+        return False
+    else:
+        for i in range(3, n):
+            if n % i == 0:
+                return False
+        return True
+ 
+
