@@ -1,0 +1,18 @@
+{
+    "nearestkaprekarnumber.py": [
+        {
+            "operation": "DELETE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 23:20:11",
+            "keyStrokeInfo": "",
+            "position": "13,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 27,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 23:20:11",
+            "keyStrokeInfo": "\r\nimport math\r\n\r\ndef kaprekar(n):\r\n    y=n**2\r\n    i=0\r\n    sum=0\r\n    while(y>0):\r\n        rem=y%10\r\n        y=y//10\r\n        sum=sum+(rem*pow(10,i))\r\n        if(sum!=0 and y+sum==n):\r\n            return True\r\n        i+=1\r\n    return False\r\n\r\ndef fun_nearestkaprekarnumber(n):\r\n    count=1\r\n    if(kaprekar(n)):\r\n        return n\r\n    while(True):\r\n        a=n+count\r\n        b=n-count\r\n        if(kaprekar(b)):\r\n            return b\r\n        elif(kaprekar(a)):\r\n            return a\r\n        count+=1\r\n        \r\n            \r\n        ",
+            "position": "13,1"
+        }
+    ]
+}
