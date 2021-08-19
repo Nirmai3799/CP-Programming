@@ -1,0 +1,193 @@
+{
+    "rectangle_overlap.py": [
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 10:48:46",
+            "keyStrokeInfo": "",
+            "position": "10,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 6,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 10:48:47",
+            "keyStrokeInfo": " \r\ndef rectangle_overlap(left1, top1, width1, height1, left2, top2, width2, height2):\r\n   if((left1 > height2 and height1 < left2) or (top1 < width2 and width1 > top2)  ):\r\n       return False\r\n   elif((left1 < height2 and height1 > left2) or (top1 > width2 and width1 < top2) ):\r\n       return True\r\n   return False",
+            "position": "10,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 10:49:15",
+            "keyStrokeInfo": "",
+            "position": "10,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 10:49:15",
+            "keyStrokeInfo": "",
+            "position": "10,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 10:49:19",
+            "keyStrokeInfo": "",
+            "position": "11,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 10:49:19",
+            "keyStrokeInfo": "",
+            "position": "10,83"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 10:49:20",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "10,83"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 10:49:22",
+            "keyStrokeInfo": "",
+            "position": "12,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 10:49:22",
+            "keyStrokeInfo": "",
+            "position": "12,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 10:49:22",
+            "keyStrokeInfo": "",
+            "position": "11,86"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 10:49:23",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "11,86"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 10:49:27",
+            "keyStrokeInfo": "",
+            "position": "13,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 10:49:27",
+            "keyStrokeInfo": "",
+            "position": "12,21"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 10:49:27",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "12,21"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 10:49:27",
+            "keyStrokeInfo": "",
+            "position": "13,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 10:49:29",
+            "keyStrokeInfo": "",
+            "position": "14,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 10:49:30",
+            "keyStrokeInfo": "",
+            "position": "14,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 10:49:30",
+            "keyStrokeInfo": "",
+            "position": "13,87"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 10:49:31",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "13,87"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 10:49:33",
+            "keyStrokeInfo": "",
+            "position": "15,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 10:49:33",
+            "keyStrokeInfo": "",
+            "position": "14,20"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 10:49:33",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "14,20"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 10:49:33",
+            "keyStrokeInfo": "",
+            "position": "15,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 10:49:51",
+            "keyStrokeInfo": "f",
+            "position": "10,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 10:49:52",
+            "keyStrokeInfo": "u",
+            "position": "10,6"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 10:49:53",
+            "keyStrokeInfo": "n",
+            "position": "10,7"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 10:49:53",
+            "keyStrokeInfo": "_",
+            "position": "10,8"
+        }
+    ]
+}
