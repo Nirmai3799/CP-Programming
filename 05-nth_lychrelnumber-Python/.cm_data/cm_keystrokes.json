@@ -1,0 +1,18 @@
+{
+    "nthlychrelnumber.py": [
+        {
+            "operation": "DELETE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 23:07:40",
+            "keyStrokeInfo": "",
+            "position": "7,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 25,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 23:07:41",
+            "keyStrokeInfo": "def reverse(x):\r\n  n=0\r\n  while x>0:\r\n    n=n*10+x%10\r\n    x=x//10\r\n  return n\r\n\r\ndef isPalindrome(n):\r\n  return reverse(n) == n\r\n\r\ndef isLychrel(n):\r\n  for i in range(50):\r\n    n+=reverse(n)\r\n    if isPalindrome(n):\r\n      return False\r\n  return True\r\n\r\ndef nthlychrelnumbers(n):\r\n  cnt=0\r\n  for i in range(4000):\r\n    if(isLychrel(i)):\r\n      cnt+=1\r\n    if(cnt==n):\r\n      break\r\n  return i",
+            "position": "7,1"
+        }
+    ]
+}
