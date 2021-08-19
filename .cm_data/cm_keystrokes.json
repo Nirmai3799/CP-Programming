@@ -1,0 +1,46 @@
+{
+    "makeMagicSquare.py": [
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 23:13:16",
+            "keyStrokeInfo": "",
+            "position": "38,8"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 23:13:17",
+            "keyStrokeInfo": "",
+            "position": "38,7"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 23:13:17",
+            "keyStrokeInfo": "",
+            "position": "38,6"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 23:13:17",
+            "keyStrokeInfo": "",
+            "position": "38,5"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 37,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 23:13:18",
+            "keyStrokeInfo": "    magicSquare=[[0 for x in range(n)]\r\n                   for y in range(n)]\r\n    i=n/2\r\n    j=n-1\r\n    num=1\r\n    while num<=(n*n):\r\n        if i==-1 and j==n:  \r\n            j=n-2\r\n            i=0\r\n        else:\r\n            if j==n:\r\n                j=0\r\n            if i<0:\r\n                i=n-1\r\n \r\n        if magicSquare[int(i)][int(j)]:  \r\n            j=j-2\r\n            i=i+1\r\n            continue\r\n        else:\r\n            magicSquare[int(i)][int(j)]=num\r\n            num=num+1\r\n        j=j+1\r\n        i=i-1  \r\n \r\n    print(\"magicsquare for n =\", n)\r\n    print(\"sum of each row or column\",\r\n          n*(n*n+1)/2, \"\\n\")\r\n \r\n    for i in range(0, n):\r\n        for j in range(0, n):\r\n            print('%2d ' % (magicSquare[i][j]),\r\n                  end='')\r\n            if j==n-1:\r\n                print()\r\n                \r\nmakeMagicSquare(11)",
+            "position": "38,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 19 2021 23:13:26",
+            "keyStrokeInfo": "",
+            "position": "38,5"
+        }
+    ]
+}
