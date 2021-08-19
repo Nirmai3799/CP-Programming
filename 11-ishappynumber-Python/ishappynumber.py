@@ -17,18 +17,7 @@
 # assert(ishappynumber(404) == True)
 # assert(ishappynumber(405) == False)
 
-def isprime(l):
-	if (l <= 1):
-		return False
-	if (l == 2):
-		return True
-	if (l % 2 == 0):
-		return False
-	maxFactor = round(l**0.5)
-	for factor in range(3,maxFactor+1,2):
-		if (l % factor == 0):
-			return False
-	return True
+
 def squarenum(b):
 	sum=0
 	while(b>0):
