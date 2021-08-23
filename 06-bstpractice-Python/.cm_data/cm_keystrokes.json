@@ -1,0 +1,18 @@
+{
+    "bst.py": [
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Aug 23 2021 20:02:57",
+            "keyStrokeInfo": "",
+            "position": "1,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 44,
+            "keyStrokeTimeStamp": "Mon Aug 23 2021 20:02:58",
+            "keyStrokeInfo": "class Node(object):\r\n    def __init__(self, value):\r\n        self.value = value\r\n        self.left = None\r\n        self.right = None\r\n\r\nclass BST(object):\r\n    def __init__(self, root):\r\n        self.root = Node(root)\r\n\r\n    def insert(self, new_val):\r\n        # Your code goes here\r\n        newNode = Node(new_val)\r\n        if (self.root == None):\r\n            self.root = newNode\r\n        else:\r\n            current = self.root\r\n            parent = self.root\r\n            while (current != None):\r\n                parent = current\r\n                if (new_val < current.value):\r\n                    current = current.left\r\n                else:\r\n                    current = current.right\r\n            if (new_val < parent.value):\r\n                parent.left= newNode\r\n            else:\r\n                parent.right = newNode\r\n\r\n    def printSelf(self):\r\n        # Your code goes here\r\n        print(self.root)\r\n\r\n\r\n    def search(self, find_val):\r\n        # Your code goes here\r\n        while self.root!=None:\r\n            if self.root.value == find_val:\r\n                return True \r\n            if self.root.value < find_val:\r\n                self.root = self.root.right\r\n            else:\r\n                self.root = self.root.left\r\n        return False\r\n",
+            "position": "1,1"
+        }
+    ]
+}
