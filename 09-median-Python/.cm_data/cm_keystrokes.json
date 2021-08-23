@@ -1,0 +1,18 @@
+{
+    "median.py": [
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Mon Aug 23 2021 19:52:36",
+            "keyStrokeInfo": "",
+            "position": "6,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 9,
+            "keyStrokeTimeStamp": "Mon Aug 23 2021 19:52:37",
+            "keyStrokeInfo": "def median(a):\r\n  low=0\r\n  mid=len(a)//2\r\n  if(len(a)==0):\r\n    return None\r\n  elif((len(a)%2)!=0):\r\n    return a[(low+(len(a)-1))//2]\r\n  else:\r\n    return (a[mid]+a[~mid])/2",
+            "position": "6,1"
+        }
+    ]
+}

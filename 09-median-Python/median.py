@@ -4,5 +4,11 @@
 # element. If the list is empty, return None.
 
 def median(a):
-	# your code goes here
-	pass
+  low=0
+  mid=len(a)//2
+  if(len(a)==0):
+    return None
+  elif((len(a)%2)!=0):
+    return a[(low+(len(a)-1))//2]
+  else:
+    return (a[mid]+a[~mid])/2
