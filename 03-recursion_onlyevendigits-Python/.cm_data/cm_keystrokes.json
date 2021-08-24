@@ -1,0 +1,18 @@
+{
+    "recursion_onlyevendigits.py": [
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 14:38:08",
+            "keyStrokeInfo": "",
+            "position": "10,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 28,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 14:38:08",
+            "keyStrokeInfo": "def evenlist(l, i):\r\n    if len(l) == i:\r\n        return l\r\n    else:\r\n        a = l[i]\r\n        l[i] = revnum(even(a))\r\n        return evenlist(l, i + 1)\r\n \r\ndef even(n, s=0):\r\n    if n == 0:\r\n        return s\r\n    else:\r\n        if (n % 10) % 2 == 0:\r\n            return even(n // 10, s=(s * 10) + (n % 10))\r\n        else:\r\n            return even(n // 10, s)\r\n \r\ndef revnum(n, s=0):\r\n    if n == 0:\r\n        return s\r\n    else:\r\n        return revnum(n // 10, s=s * 10 + n % 10)\r\n \r\ndef fun_recursion_onlyevendigits(l):\r\n    if len(l) == 0:\r\n        return []\r\n    else:\r\n        return evenlist(l, 0)\r\n",
+            "position": "10,1"
+        }
+    ]
+}
