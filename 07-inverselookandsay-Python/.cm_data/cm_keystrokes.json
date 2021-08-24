@@ -1,0 +1,18 @@
+{
+    "inverselookandsay.py": [
+        {
+            "operation": "DELETE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 19:36:56",
+            "keyStrokeInfo": "",
+            "position": "22,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 25,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 19:36:57",
+            "keyStrokeInfo": "def inverselookandsay(a):\r\n  temp=[]\r\n  if(len(a[0])==0):\r\n    return []\r\n  else:\r\n    for i in range(len(a)):\r\n      s=a[i][0]\r\n      for j in range(s):\r\n        temp.append(a[i][1])\r\n  return temp\r\n\r\ndef lookAndSay(a):\r\n  leng=len(a)\r\n  if(leng==0):\r\n    return []  \r\n  count=1  \r\n  empty=[] \r\n  for singl in range(leng-1):\r\n    if(a[singl]==a[singl+1]):\r\n      count=count+1\r\n    else:\r\n      empty.append((count,a[singl]))\r\n      count=1\r\n  empty.append((a[leng-1]),count)\r\n  return empty",
+            "position": "22,1"
+        }
+    ]
+}
