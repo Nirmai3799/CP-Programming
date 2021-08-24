@@ -1,0 +1,18 @@
+{
+    "getaverage.py": [
+        {
+            "operation": "DELETE",
+            "lines": 6,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 19:38:47",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 15,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 19:38:48",
+            "keyStrokeInfo": "def fun_getaverage(s):\r\n  sum=0.0\r\n  count=0\r\n  counte=0\r\n  p=s.split(\",\")\r\n  for i in range(len(p)):\r\n    if(p[i].isnumeric()):\r\n      sum+=int(p[i])\r\n      count+=1\r\n    else:\r\n      counte+=1\r\n      if(counte==len(p)):\r\n        return 0.0\r\n  l=sum/count\r\n  return l\r\n",
+            "position": "8,1"
+        }
+    ]
+}
