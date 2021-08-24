@@ -1,0 +1,18 @@
+{
+    "canqueenattack.py": [
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 19:40:11",
+            "keyStrokeInfo": "",
+            "position": "6,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 9,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 19:40:12",
+            "keyStrokeInfo": "def canqueenattack(qR, qC, oR, oC):\r\n  if(qR==oR):\r\n    return True\r\n  elif(qC==oC):\r\n    return True\r\n  elif((qR-qC)==(oR-oC)):\r\n    return True\r\n  else:\r\n    return False",
+            "position": "6,1"
+        }
+    ]
+}
