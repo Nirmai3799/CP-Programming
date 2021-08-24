@@ -1,0 +1,18 @@
+{
+    "nQueensChecker.py": [
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 19:42:20",
+            "keyStrokeInfo": "",
+            "position": "4,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 32,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 19:42:21",
+            "keyStrokeInfo": "\r\ndef nQueensChecker(a):\r\n    for i in range(len(a)):\r\n        if(a[i].count(True)!=1):\r\n            return False\r\n    for j in range(len(a[i])):\r\n        temp=[]\r\n        for k in range(len(a[i])):\r\n            temp.append(a[k][j])\r\n        if(temp.count(True)!=1):\r\n            return False\r\n    for i in range(len(a)):\r\n        for j in range(len(a[i])):\r\n            if(a[i][j]==True):\r\n                x=i\r\n                y=j\r\n                while(x!=len(a)-1 and y!=len(a)-1):\r\n                    if(a[x][y]==True  and x!=i and y!=j):\r\n                        return False\r\n                    x+=1\r\n                    y+=1\r\n                while(x!=len(a)-1 and y!=0):\r\n                    if(a[x][y]==True  and x!=i and y!=j):\r\n                        return False\r\n                    x+=1\r\n                    y-=1\r\n    return  True\r\n                    \r\n                    \r\nassert(nQueensChecker([[False,True,False,False],[False,False,False,True],[True,False,False,False],[False,False,True,False]])==True)\r\nassert(nQueensChecker([[False,True,False,False],[False,False,False,False],[True,False,False,False],[False,False,False,False]])==False)\r\nassert(nQueensChecker([[False,False,True,False],[True,False,False,False],[False,False,False,True],[False,True,False,False]])==True)\r\nprint(\"All Test Cases Passed......\")\r\n",
+            "position": "4,1"
+        }
+    ]
+}
