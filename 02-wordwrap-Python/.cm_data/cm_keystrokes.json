@@ -1,0 +1,18 @@
+{
+    "wordwrap.py": [
+        {
+            "operation": "DELETE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 19:34:02",
+            "keyStrokeInfo": "",
+            "position": "18,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 13,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 19:34:02",
+            "keyStrokeInfo": "def fun_wordwrap(s, n):\r\n  s=s.strip()\r\n  s=s.replace(\" \",\"-\")\r\n  k=0\r\n  spa=\"\"\r\n  l=len(s)\r\n  for k in range(0,l,n):\r\n    i=s[k:k+n]\r\n    k+=n\r\n    spa+=i\r\n    if(k<l):\r\n      spa=spa+\"\\n\"\r\n  return spa\r\n",
+            "position": "18,1"
+        }
+    ]
+}
