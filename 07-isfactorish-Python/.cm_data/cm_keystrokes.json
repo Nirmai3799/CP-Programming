@@ -1,0 +1,18 @@
+{
+    "isfactorish.py": [
+        {
+            "operation": "DELETE",
+            "lines": 4,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 14:30:26",
+            "keyStrokeInfo": "",
+            "position": "13,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 27,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 14:30:26",
+            "keyStrokeInfo": "def fun_isfactorish(n):\r\n    t=n\r\n    if n<0:\r\n        n=-n\r\n    if  (noOfDigits(n)) != 3:\r\n        return False    \r\n    \r\n    d1 = n%10\r\n    n//=10\r\n    d2 = n%10\r\n    n//=10\r\n    d3 = n%10\r\n \r\n    if(d1==0 or d2==0 or d3==0):\r\n        return False\r\n    if(d1==d2 or d2==d3 or d3==d1):\r\n        return False\r\n    if(t%d1==0 or t%d2==0 or t%d3==0):\r\n        return True\r\n    return False\r\n \r\ndef noOfDigits(n):\r\n    c=0\r\n    while n>0:\r\n        n//=10\r\n        c+=1\r\n    return c\r\n",
+            "position": "13,1"
+        }
+    ]
+}
