@@ -1,0 +1,18 @@
+{
+    "nth_fibonacci.py": [
+        {
+            "operation": "DELETE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 19:35:32",
+            "keyStrokeInfo": "",
+            "position": "9,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 11,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 19:35:32",
+            "keyStrokeInfo": "def fun_nthfibonaccinumber(n):\r\n  a=1\r\n  b=1\r\n  if n==0:\r\n    return b\r\n  else:\r\n    for i in range(0,n-1):\r\n      c=a+b\r\n      a=b\r\n      b=c\r\n    return b",
+            "position": "9,1"
+        }
+    ]
+}

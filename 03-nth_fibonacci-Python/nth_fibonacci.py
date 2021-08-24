@@ -6,7 +6,14 @@
 # nthfibonaccinumber(n) that takes a non-negative int n and returns the nth Fibonacci number.
 
 
-
 def fun_nthfibonaccinumber(n):
-	# your code goes Here
-	return 0
+  a=1
+  b=1
+  if n==0:
+    return b
+  else:
+    for i in range(0,n-1):
+      c=a+b
+      a=b
+      b=c
+    return b
