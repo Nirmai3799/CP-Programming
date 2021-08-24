@@ -1,0 +1,18 @@
+{
+    "isrotation.py": [
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 14:32:53",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 19,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 14:32:53",
+            "keyStrokeInfo": "def isrotation(x, y):\r\n  temp=x\r\n  leng=len(str(x))\r\n  if(x==y):\r\n    return True\r\n  s=list(str(x))\r\n  l=list(str(y))\r\n  # print(s[-1::-1])\r\n  # print(l)\r\n  if(s[-1::-1]==l):\r\n    return True\r\n  for i in range(leng+1):\r\n    r=x%10\r\n    q=x//10\r\n    x=10**(leng-1)*r+q\r\n    # x=rotate(x)\r\n    if(x==y):\r\n      return True\r\n  return False\r\n",
+            "position": "8,1"
+        }
+    ]
+}
