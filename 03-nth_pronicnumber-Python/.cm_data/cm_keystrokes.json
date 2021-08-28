@@ -1,0 +1,18 @@
+{
+    "nthpronicnumber.py": [
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:38:13",
+            "keyStrokeInfo": "",
+            "position": "6,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 17,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:38:13",
+            "keyStrokeInfo": "def pronic(s):\r\n  if(s==0 or s==2 or s==6):\r\n    return True\r\n  k=int(s/2)\r\n  for i in range(k):\r\n    if(s==i*(i+1)):\r\n      return True\r\n  return False\r\n\r\ndef nthpronicnumber(n):\r\n  found=0\r\n  got=-1\r\n  while(found<=n):\r\n        got+=1\r\n        if(pronic(got)):\r\n            found+=1\r\n  return got",
+            "position": "6,1"
+        }
+    ]
+}
