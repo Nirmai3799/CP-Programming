@@ -1,0 +1,18 @@
+{
+    "recursion_binarysearchvalues.py": [
+        {
+            "operation": "DELETE",
+            "lines": 4,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:15:27",
+            "keyStrokeInfo": "",
+            "position": "19,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 15,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:15:28",
+            "keyStrokeInfo": "def recurse(L,v,lo,hi,l3):\r\n  if(lo<=hi):\r\n    mid=(lo+hi)//2\r\n    l3.append((mid,L[mid]))\r\n    if(L[mid]==v):\r\n      return l3\r\n    elif(v<L[mid]):\r\n      return recurse(L,v,lo,mid-1,l3)\r\n    else:\r\n      return recurse(L,v,mid+1,hi,l3)\r\n  else:\r\n    return l3\r\n\r\ndef recursion_binarysearchvalues(L, v):\r\n  return recurse(L,v,0,len(L)-1,[])",
+            "position": "19,1"
+        }
+    ]
+}
