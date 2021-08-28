@@ -1,0 +1,18 @@
+{
+    "longestcommonsubstring.py": [
+        {
+            "operation": "DELETE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:41:48",
+            "keyStrokeInfo": "",
+            "position": "9,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 23,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:41:48",
+            "keyStrokeInfo": "def longestcommonsubstring(s1, s2):\r\n    answer=\"\"\r\n    len1=len(s2)\r\n    len2=len(s1)\r\n    for i in range(len1):\r\n        match=\"\"\r\n        for j in range(len2):\r\n            if (i+j<len1 and s2[i+j]==s1[j]):\r\n                match+=s1[j]\r\n            else:\r\n                if (len(match)>=len(answer)):\r\n                    answer=match\r\n                    match = \"\"\r\n    return answer\r\n\r\nprint(longestcommonsubstring(\"abcdef\", \"abqrcdest\"))\r\nprint(longestcommonsubstring(\"abcdef\", \"ghi\")) \r\nprint(longestcommonsubstring(\"abABC\", \"abcAB\"))\r\nprint(longestcommonsubstring(\"abcdef\", \"abqrcdest\"))\r\nprint(longestcommonsubstring(\"abcdef\", \"ghi\"))\r\nprint(longestcommonsubstring(\"\", \"abqrcdest\"))\r\nprint(longestcommonsubstring(\"abcdef\", \"\"))\r\nprint(longestcommonsubstring(\"abcABC\", \"zzabZZAB\"))",
+            "position": "9,1"
+        }
+    ]
+}
