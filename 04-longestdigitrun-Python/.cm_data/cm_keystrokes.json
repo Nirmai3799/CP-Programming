@@ -1,0 +1,18 @@
+{
+    "longestdigitrun.py": [
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:46:06",
+            "keyStrokeInfo": "",
+            "position": "7,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 23,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:46:06",
+            "keyStrokeInfo": "def longestdigitrun(n):\r\n  n=abs(n)\r\n  s=str(n)\r\n  max=0\r\n  prev=0\r\n  count=1\r\n  for i in range(len(s)-1):\r\n    if(s[i]==s[i+1]):\r\n      count+=1\r\n      if(count==prev  and  len(s)-2==i):\r\n        if(max>int(s[i])):\r\n          max=int(s[i])\r\n    else:\r\n      if(count==prev):\r\n        if(max>int(s[i])):\r\n          max=int(s[i])\r\n          prev=count\r\n          count=1\r\n      if(max<int(s[i]) and count>prev):\r\n        max=int(s[i])\r\n        prev=count\r\n      count=1\r\n  return max",
+            "position": "7,1"
+        }
+    ]
+}
