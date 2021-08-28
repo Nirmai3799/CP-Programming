@@ -1,0 +1,18 @@
+{
+    "hasduplicates.py": [
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:10:49",
+            "keyStrokeInfo": "",
+            "position": "6,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 8,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:10:51",
+            "keyStrokeInfo": "def hasduplicates(L):\r\n  temp=[]\r\n  for i in range(len(L)):\r\n    for j in range(len(L[i])):\r\n      if(L[i][j] in temp):\r\n        return True\r\n      temp.append(L[i][j])\r\n  return False",
+            "position": "6,1"
+        }
+    ]
+}
