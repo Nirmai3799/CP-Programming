@@ -1,0 +1,18 @@
+{
+    "leastfrequentletters.py": [
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:33:15",
+            "keyStrokeInfo": "",
+            "position": "10,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 11,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:33:16",
+            "keyStrokeInfo": "def leastfrequentletters(s):\r\n  k=s.lower()\r\n  empty=''\r\n  setof='abcdefghijklmnopqrstuvwxyz'\r\n  for l in setof:\r\n    total=0\r\n    if l in k:\r\n      total=k.count(l)\r\n    if(total==1):\r\n      empty+=l\r\n  return empty",
+            "position": "10,1"
+        }
+    ]
+}
