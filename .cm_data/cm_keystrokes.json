@@ -1,0 +1,18 @@
+{
+    "areAnagrams.py": [
+        {
+            "operation": "DELETE",
+            "lines": 4,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:36:31",
+            "keyStrokeInfo": "",
+            "position": "13,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 17,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:36:31",
+            "keyStrokeInfo": "def areAnagrams(s1, s2):\r\n    s1=s1.lower()\r\n    s2=s2.lower()\r\n    l1=len(s1)\r\n    l2=len(s2)\r\n    if(l1!=l2):\r\n        return False\r\n    for k in s1:\r\n        if(k in s2):\r\n            return (s1.count(k)==s2.count(k))\r\n    return False\r\n\r\n# write your test cases here...\r\nassert(areAnagrams(\"Aba\",\"BAA\")==True)\r\nassert(areAnagrams(\"Aba\",\"BAAA\")==False)\r\nassert(areAnagrams(\"AbCdEfGhIj\",\"aBcDeFgHiJ\")==True)\r\nprint(\"All test cases passed .......\")",
+            "position": "13,1"
+        }
+    ]
+}
