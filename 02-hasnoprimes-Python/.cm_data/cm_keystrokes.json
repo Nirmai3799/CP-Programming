@@ -1,0 +1,18 @@
+{
+    "hasnoprimes.py": [
+        {
+            "operation": "DELETE",
+            "lines": 4,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:09:00",
+            "keyStrokeInfo": "",
+            "position": "4,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 18,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:09:01",
+            "keyStrokeInfo": "def isprime(n):\r\n  if(n==2):\r\n    return True\r\n  elif(n%2==0 or n<2):\r\n    return False\r\n  else:\r\n    for i in range(3,n//2,2):\r\n      if(n%i==0):\r\n        return False\r\n  return True\r\n      \r\n\r\ndef fun_hasnoprimes(l):\r\n  for i in range(len(l)):\r\n    for j in range(len(l[i])):\r\n      if(isprime(l[i][j])==True):\r\n        return False\r\n  return True",
+            "position": "4,1"
+        }
+    ]
+}
