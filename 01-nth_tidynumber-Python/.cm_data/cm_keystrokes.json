@@ -1,0 +1,18 @@
+{
+    "nth_tidynumber.py": [
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:30:29",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 20,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:30:30",
+            "keyStrokeInfo": "\r\ndef tidyprop(x):\r\n    x=abs(x)\r\n    std=10\r\n    while(x):\r\n        y=x%10\r\n        if(y>std):\r\n            return False\r\n        elif(std>=y):\r\n            std=y\r\n        x=x//10\r\n    return True   \r\n\r\ndef fun_nth_tidynumber(n):\r\n    found=0\r\n    got=0\r\n    while(found<=n):\r\n        got+=1\r\n        if(tidyprop(got)):\r\n            found+=1\r\n    return got",
+            "position": "8,1"
+        }
+    ]
+}
