@@ -1,0 +1,18 @@
+{
+    "carrylessadd.py": [
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:34:59",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 16,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:34:59",
+            "keyStrokeInfo": "import math\r\n\r\ndef fun_carrylessadd(x, y):\r\n  result=0\r\n  multiplier=1\r\n  digitsum=0\r\n  while(x or y):\r\n    digitsum=((x%10)+(y%10))\r\n    digitsum=digitsum%10\r\n    result=(digitsum*multiplier)+result\r\n    x=math.floor(x/10)\r\n    y=math.floor(y/10)\r\n    multiplier=multiplier*10\r\n    \r\n    \r\n  return result",
+            "position": "8,1"
+        }
+    ]
+}

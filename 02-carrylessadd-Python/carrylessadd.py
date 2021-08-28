@@ -5,6 +5,20 @@
 # carryless sum. As the paper demonstrates, fun_carrylessadd(785, 376) returns 51.
 
 
+import math
+
 def fun_carrylessadd(x, y):
-	return 0
+  result=0
+  multiplier=1
+  digitsum=0
+  while(x or y):
+    digitsum=((x%10)+(y%10))
+    digitsum=digitsum%10
+    result=(digitsum*multiplier)+result
+    x=math.floor(x/10)
+    y=math.floor(y/10)
+    multiplier=multiplier*10
+    
+    
+  return result
 
