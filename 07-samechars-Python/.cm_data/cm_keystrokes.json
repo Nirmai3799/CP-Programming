@@ -1,0 +1,18 @@
+{
+    "samechars.py": [
+        {
+            "operation": "DELETE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:44:35",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 12,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:44:35",
+            "keyStrokeInfo": "def reversing(s):\r\n  return s[::-1]\r\n\r\ndef samechars(s1, s2):\r\n  if(type(s1)!=type('the') or type(s2)!=type('the')):\r\n    return  False\r\n  elif(s1[:]==s2[:]):\r\n    return True\r\n  elif(s1.count(s2)>0 or reversing(s1).count(s2)>0):\r\n    return True\r\n  else:\r\n    return False",
+            "position": "8,1"
+        }
+    ]
+}
