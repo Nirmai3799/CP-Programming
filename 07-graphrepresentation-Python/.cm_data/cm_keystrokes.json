@@ -1,0 +1,179 @@
+{
+    "Graph_Representation.py": [
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:19:18",
+            "keyStrokeInfo": "",
+            "position": "1,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 54,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:19:19",
+            "keyStrokeInfo": "class Node(object):\r\n    def __init__(self, value):\r\n        self.value = value\r\n        self.edges = []\r\n\r\n'''\r\nThis class defines an Edge\r\n'''\r\nclass Edge(object):\r\n    def __init__(self, value, node_from, node_to):\r\n        self.value = value\r\n        self.node_from = node_from\r\n        self.node_to = node_to\r\n\r\nclass Graph(object):\r\n    def __init__(self, nodes=[], edges=[]):\r\n        self.nodes = nodes\r\n        self.edges = edges\r\n\r\n    def insert_node(self, new_node_val):\r\n        new_node = Node(new_node_val)\r\n        self.nodes.append(new_node)\r\n        \r\n    def insert_edge(self, new_edge_val, node_from_val, node_to_val):\r\n        from_found = None\r\n        to_found = None\r\n        for node in self.nodes:\r\n            if node_from_val == node.value:\r\n                from_found = node\r\n            if node_to_val == node.value:\r\n                to_found = node\r\n        if from_found == None:\r\n            from_found = Node(node_from_val)\r\n            self.nodes.append(from_found)\r\n        if to_found == None:\r\n            to_found = Node(node_to_val)\r\n            self.nodes.append(to_found)\r\n        new_edge = Edge(new_edge_val, from_found, to_found)\r\n        from_found.edges.append(new_edge)\r\n        to_found.edges.append(new_edge)\r\n        self.edges.append(new_edge)\r\n\r\n    def get_edge_list(self):\r\n        edge_list = []\r\n        return edge_list\r\n\r\n    def get_adjacency_list(self):\r\n        adjacency_list = [None] * (max_index + 1)\r\n        return adjacency_list\r\n    \r\n    \r\n    def get_adjacency_matrix(self):\r\n        adjacency_matrix = [[0 for i in range(max_index + 1)] for j in range(max_index + 1)]\r\n        return adjacency_matrix",
+            "position": "1,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:20:30",
+            "keyStrokeInfo": "",
+            "position": "1,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 54,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:20:30",
+            "keyStrokeInfo": "class Node(object):\r\n    def __init__(self, value):\r\n        self.value = value\r\n        self.edges = []\r\n\r\n'''\r\nThis class defines an Edge\r\n'''\r\nclass Edge(object):\r\n    def __init__(self, value, node_from, node_to):\r\n        self.value = value\r\n        self.node_from = node_from\r\n        self.node_to = node_to\r\n\r\nclass Graph(object):\r\n    def __init__(self, nodes=[], edges=[]):\r\n        self.nodes = nodes\r\n        self.edges = edges\r\n\r\n    def insert_node(self, new_node_val):\r\n        new_node = Node(new_node_val)\r\n        self.nodes.append(new_node)\r\n        \r\n    def insert_edge(self, new_edge_val, node_from_val, node_to_val):\r\n        from_found = None\r\n        to_found = None\r\n        for node in self.nodes:\r\n            if node_from_val == node.value:\r\n                from_found = node\r\n            if node_to_val == node.value:\r\n                to_found = node\r\n        if from_found == None:\r\n            from_found = Node(node_from_val)\r\n            self.nodes.append(from_found)\r\n        if to_found == None:\r\n            to_found = Node(node_to_val)\r\n            self.nodes.append(to_found)\r\n        new_edge = Edge(new_edge_val, from_found, to_found)\r\n        from_found.edges.append(new_edge)\r\n        to_found.edges.append(new_edge)\r\n        self.edges.append(new_edge)\r\n\r\n    def get_edge_list(self):\r\n        edge_list = []\r\n        return edge_list\r\n\r\n    def get_adjacency_list(self):\r\n        adjacency_list = [None] * (max_index + 1)\r\n        return adjacency_list\r\n    \r\n    \r\n    def get_adjacency_matrix(self):\r\n        adjacency_matrix = [[0 for i in range(max_index + 1)] for j in range(max_index + 1)]\r\n        return adjacency_matrix\r\n",
+            "position": "1,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:25:35",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "13,31"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:25:36",
+            "keyStrokeInfo": "s",
+            "position": "14,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:25:36",
+            "keyStrokeInfo": "e",
+            "position": "14,10"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:25:36",
+            "keyStrokeInfo": "l",
+            "position": "14,11"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:25:37",
+            "keyStrokeInfo": "f",
+            "position": "14,12"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:25:37",
+            "keyStrokeInfo": ".",
+            "position": "14,13"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:25:37",
+            "keyStrokeInfo": "m",
+            "position": "14,14"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:25:39",
+            "keyStrokeInfo": "a",
+            "position": "14,15"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:25:39",
+            "keyStrokeInfo": "x",
+            "position": "14,16"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:25:40",
+            "keyStrokeInfo": "_",
+            "position": "14,17"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:25:41",
+            "keyStrokeInfo": "i",
+            "position": "14,18"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:25:41",
+            "keyStrokeInfo": "n",
+            "position": "14,19"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:25:41",
+            "keyStrokeInfo": "d",
+            "position": "14,20"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:25:41",
+            "keyStrokeInfo": "e",
+            "position": "14,21"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:25:42",
+            "keyStrokeInfo": "x",
+            "position": "14,22"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:25:42",
+            "keyStrokeInfo": "=",
+            "position": "14,23"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:25:42",
+            "keyStrokeInfo": "0",
+            "position": "14,24"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:25:54",
+            "keyStrokeInfo": "",
+            "position": "14,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:25:56",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "19,27"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:25:56",
+            "keyStrokeInfo": "self.max_index=0",
+            "position": "20,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:27:39",
+            "keyStrokeInfo": "",
+            "position": "20,8"
+        }
+    ]
+}
