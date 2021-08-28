@@ -1,0 +1,18 @@
+{
+    "recursion_secondlargest.py": [
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:17:37",
+            "keyStrokeInfo": "",
+            "position": "16,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 18,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 22:17:38",
+            "keyStrokeInfo": "def recurse(l,l1,l2):\r\n  if(len(l)==0):\r\n    return l2\r\n  else:\r\n    if(l[0]>l1):\r\n      l2=l1\r\n      l1=l[0]\r\n    elif(l2<l[0]):\r\n      l2=l[0]\r\n    return recurse(l[1:],l1,l2)\r\n\r\n\r\ndef recursion_secondlargest(L):\r\n  l=len(L)\r\n  if(l==0 or l==1):\r\n    return None\r\n  else:\r\n    return recurse(L,-99999,-99999)",
+            "position": "16,1"
+        }
+    ]
+}
