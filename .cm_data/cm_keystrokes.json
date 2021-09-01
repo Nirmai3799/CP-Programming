@@ -1,0 +1,25 @@
+{
+    "movie_awards.py": [
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 21:39:57",
+            "keyStrokeInfo": "",
+            "position": "19,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 22,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 21:39:58",
+            "keyStrokeInfo": "def movieAwards(oscarResults):\r\n    empty={}\r\n    l=list(oscarResults)\r\n    for i in range(len(l)):\r\n        if l[i][1] in empty:\r\n            empty[l[i][1]]+=1\r\n        else:\r\n            empty[l[i][1]]=1\r\n    s=sorted(empty.items())\r\n    print(s)\r\n    \r\n        \r\n    \r\nmovieAwards({ \r\n    (\"Best Picture\", \"The Shape of Water\"), \r\n    (\"Best Actor\", \"Darkest Hour\"),\r\n    (\"Best Actress\", \"Three Billboards Outside Ebbing, Missouri\"),\r\n    (\"Best Director\", \"The Shape of Water\"),\r\n    (\"Best Supporting Actor\", \"Three Billboards Outside Ebbing, Missouri\"),\r\n    (\"Best Supporting Actress\", \"I, Tonya\"),\r\n    (\"Best Original Score\", \"The Shape of Water\")\r\n})",
+            "position": "19,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 21:40:09",
+            "keyStrokeInfo": "\r\n",
+            "position": "40,3"
+        }
+    ]
+}
