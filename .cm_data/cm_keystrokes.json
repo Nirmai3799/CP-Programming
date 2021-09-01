@@ -1,0 +1,18 @@
+{
+    "topScorer.py": [
+        {
+            "operation": "DELETE",
+            "lines": 23,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 22:01:02",
+            "keyStrokeInfo": "",
+            "position": "17,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 43,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 22:01:03",
+            "keyStrokeInfo": "def topScorer(data):\r\n    if(data==''):\r\n        return None\r\n    temp=[]\r\n    maximum=0\r\n    d=data.splitlines()\r\n    k=d[0].split(\",\")\r\n    l=d[1].split(\",\")\r\n    temp.append(k)\r\n    temp.append(l)\r\n    for i in range(len(temp)):\r\n        sum=0\r\n        for j in range(1,len(temp[i])):\r\n            sum+=int(temp[i][j])\r\n        if(maximum<sum):\r\n            maximum=sum\r\n            s=temp[i][0]\r\n        elif(maximum==sum):\r\n            s=s+\",\"+temp[i][0]\r\n    return s\r\n            \r\n            \r\n\r\ndata = '''\\\r\nFred,10,20,30,40\r\nWilma,10,20,30\r\n'''\r\nassert(topScorer(data) == 'Fred')\r\n\r\ndata = '''\\\r\nFred,10,20,30\r\nWilma,10,20,30,40\r\n'''\r\nassert(topScorer(data) == 'Wilma')\r\n\r\ndata = '''\\\r\nFred,11,20,30\r\nWilma,10,20,30,1\r\n'''\r\nassert(topScorer(data) == 'Fred,Wilma')\r\n\r\nassert(topScorer('') == None)\r\nprint(\"All test cases passed...!\")",
+            "position": "17,1"
+        }
+    ]
+}
