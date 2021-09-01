@@ -1,0 +1,18 @@
+{
+    "set.py": [
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 22:04:39",
+            "keyStrokeInfo": "",
+            "position": "10,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 26,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 22:04:40",
+            "keyStrokeInfo": "def limitedPowerSet(n,l):\r\n    k=[]\r\n    k.append({})\r\n    for i in range(1,n+1):\r\n        for j in range(1,(n+1)-(i-1)):\r\n            temp=[]\r\n            for x in range(j,j+i):\r\n                temp.append(x)\r\n                \r\n            if(len(k)<l):\r\n                k.append(set(temp))\r\n            else:\r\n                return k\r\n    if(len(k)==l):\r\n        return k\r\n    else:\r\n        return None\r\n    \r\n    \r\nprint(limitedPowerSet(5,16))\r\nprint(limitedPowerSet(0,3))\r\nprint(limitedPowerSet(0,1))\r\nprint(limitedPowerSet(5,3))\r\nprint(limitedPowerSet(3,3))\r\nprint(limitedPowerSet(7,17))\r\nprint(\"All Test cases passed................\")",
+            "position": "10,1"
+        }
+    ]
+}
