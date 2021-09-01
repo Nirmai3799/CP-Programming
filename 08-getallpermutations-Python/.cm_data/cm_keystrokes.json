@@ -1,0 +1,18 @@
+{
+    "getallpermutations.py": [
+        {
+            "operation": "DELETE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 21:55:42",
+            "keyStrokeInfo": "",
+            "position": "5,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 14,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 21:55:43",
+            "keyStrokeInfo": "def getallpermutations(x):\r\n  if(len(x)==0):\r\n    return []\r\n  elif(len(x)==1):\r\n    return x\r\n  l=[]\r\n  for i in range(len(x)):\r\n    s=tuple(x[i])\r\n    rem=x[:i]+x[i+1:]\r\n    for j in getallpermutations(rem):\r\n      j=tuple(j)\r\n      t=s+j\r\n      l.append(t)\r\n  return l",
+            "position": "5,1"
+        }
+    ]
+}
